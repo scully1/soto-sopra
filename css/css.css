@@ -1,0 +1,157 @@
+*, *:before, *:after {
+	box-sizing:border-box;
+}
+
+html{ 
+font-family: 'Roboto', sans-serif;
+}
+body {
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.25;
+  color: #8a5d3b;
+  margin: 0;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 900;
+  line-height: 63px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 1.7em;
+  font-weight: 900;
+  line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 2.2em;
+  line-height: 42px;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 1.6em;
+  line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+h5 {
+  font-size: 1em;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+h6 { 
+  font-size: 1.6em;
+  line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.resp{
+	width: 100%;
+	max-width: auto;
+	height: auto;
+}
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 960px;
+  margin: 0;
+  padding: 0;
+}
+.columnaddress {
+  width: 30.33%;
+  float: left;
+  box-sizing: border-box; 
+  background: none;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.columnphone {
+  width: 30.33%;
+  float: right;
+  box-sizing: border-box; 
+  background: none;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+.nav {
+	padding-left:10px;
+}
+.menu {
+  background: none;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.lunch {
+  width: 100%;
+  background: none;
+  padding-left: 6%;
+}
+.columnlunch1 {
+  width: 37%;
+  float: left;
+  background: none;
+  margin-left: 6%;
+}
+.columnlunch2 {
+  width: 37.3%;
+  float: right;
+  box-sizing: border-box; 
+  background: none;
+  margin-right: 17%;
+  margin-bottom: 8.3%;
+}
+.columndinner1 {
+  width: 37%;
+  float: left;
+  margin-left: 6%;
+  margin-top: 24%;
+  background: none;
+}
+.columndinner2 {
+  width: 37.3%;
+  float: right;
+  background: none;
+  margin-right: 17%;
+  margin-top: 0;
+  background: none;
+}
+.dessert {
+	width: 100%;
+	float: left;
+	margin-left: auto;
+	margin-top: 5%;
+	background: none;
+	margin-bottom: 5%;
+	text-align: center;
+}
+.dessertmenu {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+.hours {
+  	width: 100%;
+	float: left;
+	padding: 10px;
+	background: #556759;
+	margin-bottom: 10%;
+	color: #FFFFFF;
+}
+.days {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	width:auto;
+}
+
