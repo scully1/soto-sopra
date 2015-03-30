@@ -9,7 +9,7 @@ a {
 	text-decoration: none;
 }
 a:hover{
-	color: #556759;
+	text-decoration: underline;
 }
 body {
   font-size: 1em;
@@ -19,7 +19,6 @@ body {
   max-width: 100%;
   min-width: 960px;
   margin: 0;
-  overflow-x: hidden;
 }
 h1 {
   font-size: 2.75em;
@@ -170,10 +169,10 @@ h6 {
 	padding: 15px;
 }
 .book {
-	width: 100%;
+	width: 94%;
 	float: left;
-  	margin-left: 6%;
 	margin-bottom: 1%;
+	padding-left: 6%;
 }
 .table {
 	margin-left:center;
@@ -183,18 +182,19 @@ h6 {
 	width:auto;
 }
 .footer {
-  width: 100%;
-  float: left;
-  box-sizing: border-box; 
-  background: none;
-  padding-left: 15px;
-  background: #556759;
+    width: 100%;
+	float: left;
+	padding: 15px;
+	background: #556759;
 }
 .address2 {
-  width:18%;
   color: #FFFFFF;
-  padding-top: 2px;
-}
+  width: 19%;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+  box-sizing: border-box;
+ } 
 .nav2 {
   color: #FFFFFF;
   width: 30.33%;
@@ -202,6 +202,13 @@ h6 {
   box-sizing: border-box; 
   text-align: right;
   padding-right: 15px;
-  padding-top: 2px;
+  padding-bottom: 0;
+}
+a.nav:link {
+	color: #FFFFFF; 
+	text-decoration: none; 
+}
+a.nav:hover {
+	text-decoration: underline; 
 }
 
