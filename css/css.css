@@ -1,16 +1,25 @@
 *, *:before, *:after {
 	box-sizing:border-box;
 }
-
 html{ 
-font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+a {
+    color: #8a5d3b;
+	text-decoration: none;
+}
+a:hover{
+	color: #556759;
 }
 body {
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
   line-height: 1.25;
   color: #8a5d3b;
+  max-width: 100%;
+  min-width: 960px;
   margin: 0;
+  overflow-x: hidden;
 }
 h1 {
   font-size: 2.75em;
@@ -56,22 +65,15 @@ h6 {
 }
 .resp{
 	width: 100%;
-	max-width: auto;
+	max-width: 100%;
 	height: auto;
-}
-.container {
-  position: relative;
-  width: 90%;
-  max-width: 960px;
-  margin: 0;
-  padding: 0;
 }
 .columnaddress {
   width: 30.33%;
   float: left;
   box-sizing: border-box; 
   background: none;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 5px;
 }
 .columnphone {
@@ -80,16 +82,16 @@ h6 {
   box-sizing: border-box; 
   background: none;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 15px;
   padding-top: 5px;
 }
 .nav {
-	padding-left:10px;
+	padding-left:15px;
 }
 .menu {
   background: none;
-  padding-left: 10px;
-  padding-top: 20px;
+  padding-left: 15px;
+  padding-top: 75px;
   padding-bottom: 0;
 }
 .lunch {
@@ -111,11 +113,19 @@ h6 {
   margin-right: 17%;
   margin-bottom: 8.3%;
 }
+.sidebar {
+  float: right;			
+}
+.dinner {
+  width: 100%;
+  background: none;
+  padding-left: 6%;
+}
 .columndinner1 {
   width: 37%;
   float: left;
   margin-left: 6%;
-  margin-top: 24%;
+  margin-top: 0%;
   background: none;
 }
 .columndinner2 {
@@ -143,9 +153,9 @@ h6 {
 .hours {
   	width: 100%;
 	float: left;
-	padding: 10px;
+	padding: 15px;
 	background: #556759;
-	margin-bottom: 10%;
+	margin-bottom: 2%;
 	color: #FFFFFF;
 }
 .days {
@@ -153,5 +163,45 @@ h6 {
 	margin-right:auto;
 	text-align: center;
 	width:auto;
+}
+.reservations {
+	width: 100%;
+	float: left;
+	padding: 15px;
+}
+.book {
+	width: 100%;
+	float: left;
+  	margin-left: 6%;
+	margin-bottom: 1%;
+}
+.table {
+	margin-left:center;
+	margin-right:center;
+	margin-bottom: 3%;
+	text-align: center;
+	width:auto;
+}
+.footer {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; 
+  background: none;
+  padding-left: 15px;
+  background: #556759;
+}
+.address2 {
+  width:18%;
+  color: #FFFFFF;
+  padding-top: 2px;
+}
+.nav2 {
+  color: #FFFFFF;
+  width: 30.33%;
+  float: right;
+  box-sizing: border-box; 
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 2px;
 }
 
